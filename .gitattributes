@@ -1,0 +1,11 @@
+.gitattributes text eol=lf
+README.md text eol=lf
+README.zh.md text eol=lf
+docs/*.md text eol=lf
+scripts/*.sh text eol=lf
+platform/csdk/*.elf -text
+platform/csdk/*.lod -text
+platform/csdk/debug/*.elf -text
+platform/csdk/debug/*.lod -text
+platform/csdk/release/*.elf -text
+platform/csdk/release/*.lod -text
